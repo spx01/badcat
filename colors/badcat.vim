@@ -209,6 +209,38 @@ call s:HL('jsExportDefault', s:purple)
 call s:HL('jsExtendsKeyword', s:red)
 " }}}
 
+" JADE/PUG ------------------------------------------------------------------{{{
+call s:HL('pugScriptStatement', s:purple)
+call s:HL('pugId', s:orange)
+call s:HL('pugIdChar', s:orange)
+call s:HL('pugClass', s:orange)
+call s:HL('pugClassChar', s:orange)
+call s:HL('pugAttributes', s:green)
+call s:HL('pugAttributesDelimiter', s:white)
+call s:HL('pugDocType', s:lightgray)
+call s:HL('pugTag', s:red)
+call s:HL('pugJavascript', s:red)
+call s:HL('pugJavascriptTag', s:red)
+call s:HL('pugBlockExpansionChar', s:white)
+call s:HL('pugScriptLoopKeywords', s:green)
+call s:HL('pugJavascriptOutputchar', s:purple)
+call s:HL('pugScriptConditional', s:green)
+" }}}
+" SASS ----------------------------------------------------------------------{{{
+call s:HL('sassVariable', s:green)
+call s:HL('sassMixin', s:blue)
+call s:HL('sassMixinName', s:blue)
+call s:HL('sassMixing', s:blue)
+call s:HL('sassCssAttribute', s:yellow)
+call s:HL('sassAmpersand', s:purple)
+call s:HL('sassClass', s:green)
+call s:HL('sassClassChar', s:green)
+call s:HL('sassExtend', s:purple)
+call s:HL('sassInclude', s:purple)
+call s:HL('sassMedia', s:purple)
+call s:HL('sassFunction', s:blue)
+" }}}
+
 " RUBY ----------------------------------------------------------------------{{{
 call s:HL('rubyClass'           , s:red)
 call s:HL('rubyConstant'        , s:blue)
@@ -253,35 +285,8 @@ call s:HL('jsonBraces'           , s:white)
 call s:HL('jsonString'           , s:yellow)
 call s:HL('jsonBoolean'           , s:pink)
 " }}}
-
-" JADE/PUG ------------------------------------------------------------------{{{
-call s:HL('pugScriptStatement', s:purple)
-call s:HL('pugId', s:orange)
-call s:HL('pugIdChar', s:orange)
-call s:HL('pugClass', s:orange)
-call s:HL('pugClassChar', s:orange)
-call s:HL('pugAttributes', s:green)
-call s:HL('pugAttributesDelimiter', s:white)
-call s:HL('pugDocType', s:lightgray)
-call s:HL('pugTag', s:red)
-call s:HL('pugJavascript', s:red)
-call s:HL('pugJavascriptTag', s:red)
-call s:HL('pugBlockExpansionChar', s:white)
-call s:HL('pugScriptLoopKeywords', s:green)
-call s:HL('pugJavascriptOutputchar', s:purple)
-call s:HL('pugScriptConditional', s:green)
-" }}}
-" SASS ----------------------------------------------------------------------{{{
-call s:HL('sassVariable', s:green)
-call s:HL('sassMixin', s:blue)
-call s:HL('sassMixinName', s:blue)
-call s:HL('sassMixing', s:blue)
-call s:HL('sassCssAttribute', s:yellow)
-call s:HL('sassAmpersand', s:purple)
-call s:HL('sassClass', s:green)
-call s:HL('sassClassChar', s:green)
-call s:HL('sassExtend', s:purple)
-call s:HL('sassInclude', s:purple)
-call s:HL('sassMedia', s:purple)
-call s:HL('sassFunction', s:blue)
+" SNIPPETS ------------------------------------------------------------------{{{
+call s:HL('snippet'           , s:lightgray)
+call s:HL('multiSnipText'           , s:red)
+call s:HL('placeholder'           , s:white)
 " }}}
