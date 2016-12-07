@@ -209,6 +209,26 @@ call s:HL('jsExportDefault', s:purple)
 call s:HL('jsExtendsKeyword', s:red)
 " }}}
 
+" RUBY ----------------------------------------------------------------------{{{
+call s:HL('rubyClass'           , s:red)
+call s:HL('rubyConstant'        , s:blue)
+call s:HL('rubyDefine'          , s:red)
+call s:HL('rubyFunction'        , s:green)
+call s:HL('rubyStringDelimiter' , s:yellow)
+call s:HL('rubyLocalVariableOrMethod' , s:blue)
+call s:HL('rubyKeyword' , s:red)
+call s:HL('rubyKeywordAsMethod' , s:purple)
+call s:HL('rubyControl' , s:purple)
+call s:HL('rubyInclude'      , s:purple)
+call s:HL('rubyAccess'      , s:purple)
+call s:HL('rubyConditional'      , s:orange)
+call s:HL('rubyException'      , s:orange)
+call s:HL('rubyString'      , s:yellow)
+call s:HL('rubyAttribute'      , s:green)
+
+call s:HL('erubyDelimiter'      , s:red)
+" }}}
+
 " MARKDOWN ------------------------------------------------------------------{{{
 call s:HL('markdownH1'                , s:red)
 call s:HL('markdownH2'                , s:red)
