@@ -233,3 +233,21 @@ call s:HL('jsonBraces'           , s:white)
 call s:HL('jsonString'           , s:yellow)
 call s:HL('jsonBoolean'           , s:pink)
 " }}}
+
+" JADE/PUG ------------------------------------------------------------------{{{
+call s:HL('pugScriptStatement', s:purple)
+call s:HL('pugId', s:orange)
+call s:HL('pugIdChar', s:orange)
+call s:HL('pugClass', s:orange)
+call s:HL('pugClassChar', s:orange)
+call s:HL('pugAttributes', s:green)
+call s:HL('pugAttributesDelimiter', s:white)
+call s:HL('pugDocType', s:lightgray)
+call s:HL('pugTag', s:red)
+call s:HL('pugJavascript', s:red)
+call s:HL('pugJavascriptTag', s:red)
+call s:HL('pugBlockExpansionChar', s:white)
+call s:HL('pugScriptLoopKeywords', s:green)
+call s:HL('pugJavascriptOutputchar', s:purple)
+call s:HL('pugScriptConditional', s:green)
+" }}}
