@@ -227,3 +227,9 @@ call s:HL('markdownCode'         , s:lightgray)
 call s:HL('markdownCodeDelimiter'         , s:lightgray)
 call s:HL('markdownRule'         , s:lightgray)
 " }}}
+" JSON ----------------------------------------------------------------------{{{
+call s:HL('jsonKeyword'           , s:green)
+call s:HL('jsonBraces'           , s:white)
+call s:HL('jsonString'           , s:yellow)
+call s:HL('jsonBoolean'           , s:pink)
+" }}}
