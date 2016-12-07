@@ -72,10 +72,21 @@ call s:HL('CursorLineNr', s:lightgray)
 call s:HL('NonText', s:gray)                     " '~', '@' and etc
 call s:HL('CursorLine', 'NONE', s:black, 'NONE') " CURSROR HIGHLIGHT
 call s:HL('ColorColumn', 'NONE', s:gray)         " RULE BAR
+call s:HL('VertSplit'    , s:darkgray, s:gray)     " VERTICAL SPLIT DIVISOR
 call s:HL('Folded' , s:lightgray, 'NONE')
-call s:HL('StatusLine', s:darkgray, s:lightgray)
+call s:HL('StatusLine', s:black, s:green)
+call s:HL('StatusLineNC', s:darkgray, s:lightgray)
+call s:HL('TabLineFill'  , 'NONE', s:black, 'NONE')
+call s:HL('TabLineSel'   , s:black, s:green, 'NONE')
+call s:HL('TabLine'      , s:white, s:gray, 'NONE')
 " }}}
 " BASE SYNTAX ---------------------------------------------------------------{{{
 call s:HL('Normal'  , s:white, s:darkgray)
 call s:HL('Comment' , s:lightgray)
+" }}}
+
+
+" SPECIFIC-LANGUAGE SYNTAX
+" VANILLA VIM ---------------------------------------------------------------{{{
+call s:HL('vimCommentTitle' , s:green)
 " }}}
