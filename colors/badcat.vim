@@ -79,6 +79,7 @@ call s:HL('StatusLineNC', s:darkgray, s:lightgray)
 call s:HL('TabLineFill'  , 'NONE', s:black, 'NONE')
 call s:HL('TabLineSel'   , s:black, s:green, 'NONE')
 call s:HL('TabLine'      , s:white, s:gray, 'NONE')
+call s:HL('MatchParen'   , s:green, 'NONE')
 " }}}
 " BASE SYNTAX ---------------------------------------------------------------{{{
 call s:HL('Normal'  , s:white, s:darkgray)
@@ -89,4 +90,22 @@ call s:HL('Comment' , s:lightgray)
 " SPECIFIC-LANGUAGE SYNTAX
 " VANILLA VIM ---------------------------------------------------------------{{{
 call s:HL('vimCommentTitle' , s:green)
+" }}}
+" HTML ----------------------------------------------------------------------{{{
+call s:HL('htmlTag', s:white)
+call s:HL('htmlEndTag', s:white)
+call s:HL('htmlTagName', s:red)
+call s:HL('htmlArg', s:green)
+call s:HL('htmlTitle', s:white)
+call s:HL('htmlLink', s:white)
+call s:HL('htmlItalic', s:white, 'NONE')
+call s:HL('htmlH1', s:white)
+call s:HL('htmlH2', s:white)
+call s:HL('htmlH3', s:white)
+call s:HL('htmlH4', s:white)
+call s:HL('htmlH5', s:white)
+call s:HL('htmlH6', s:white)
+call s:HL('htmlSpecialTagName', s:red)
+call s:HL('htmlSpecialChar', s:white)
+call s:HL('htmlString', s:yellow)
 " }}}
