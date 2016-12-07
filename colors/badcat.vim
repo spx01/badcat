@@ -308,3 +308,22 @@ call s:HL('snippet'           , s:lightgray)
 call s:HL('multiSnipText'           , s:red)
 call s:HL('placeholder'           , s:white)
 " }}}
+" SHELL ---------------------------------------------------------------------{{{
+call s:HL('shConditional', s:orange)
+call s:HL('shExpr', s:white)
+call s:HL('shRange', s:white)
+call s:HL('shTestOpr', s:orange)
+call s:HL('shStatement', s:red)
+call s:HL('shEcho', s:red)
+call s:HL('shQuote', s:yellow)
+call s:HL('shSingleQuote', s:yellow)
+call s:HL('shOperator', s:red)
+call s:HL('shFunctionKey', s:blue)
+call s:HL('shFunction', s:green)
+call s:HL('shFunctionTwo', s:white)
+call s:HL('shVariable', s:green)
+call s:HL('shAlias', s:green)
+
+" BASH
+call s:HL('bashStatement', s:red)
+" }}}
