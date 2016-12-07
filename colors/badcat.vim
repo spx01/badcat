@@ -80,10 +80,15 @@ call s:HL('TabLineFill'  , 'NONE', s:black, 'NONE')
 call s:HL('TabLineSel'   , s:black, s:green, 'NONE')
 call s:HL('TabLine'      , s:white, s:gray, 'NONE')
 call s:HL('MatchParen'   , s:green, 'NONE')
+call s:HL('Visual'       , s:lightgray, s:gray)    " VISUAL MODE
+call s:HL('Search'       , s:pink, s:black)
 " }}}
 " BASE SYNTAX ---------------------------------------------------------------{{{
 call s:HL('Normal'  , s:white, s:darkgray)
 call s:HL('Comment' , s:lightgray)
+call s:HL('String'  , s:yellow)
+call s:HL('Boolean' , s:pink)
+call s:HL('Delimiter' , s:purple)
 " }}}
 
 
@@ -326,4 +331,18 @@ call s:HL('shAlias', s:green)
 
 " BASH
 call s:HL('bashStatement', s:red)
+" }}}
+
+
+" SPECTIFIC-PLUGINS COLORS
+" NERDTREE ------------------------------------------------------------------{{{
+call s:HL('NERDTreeUp', s:yellow)
+call s:HL('NERDTreeDir', s:green)
+call s:HL('NERDTreeFile', s:white)
+call s:HL('NERDTreeExecFile', s:white)
+call s:HL('NERDTreeDirSlash', s:gray)
+call s:HL('NERDTreeOpenable', s:gray)
+call s:HL('NERDTreeClosable', s:gray)
+call s:HL('NERDTreeCWD', s:orange)
+call s:HL('NERDTreeHelp', s:lightgray)
 " }}}
