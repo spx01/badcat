@@ -18,3 +18,22 @@ set background=dark
 
 let g:colors_name = 'badcat'
 " }}}
+
+
+" HIGHLIGHTING FUNCTION ------------------------------------------------------{{{
+if has('gui_running')
+    let s:hi_args = ['guifg', 'guibg', 'gui', 'guisp']
+else
+    let s:hi_args = ['ctermfg', 'ctermbg', 'cterm']
+endif
+
+function! s:HL(group, ...)
+    let command = 'hi ' . a:group
+
+    for i in range(0, len(a:000) - 1)
+        let command .= ' ' . s:hi_args[i] . '=' . a:000[i]
+    endfor
+
+    execute command
+endfunc
+" }}}
