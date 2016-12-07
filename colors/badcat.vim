@@ -251,3 +251,17 @@ call s:HL('pugScriptLoopKeywords', s:green)
 call s:HL('pugJavascriptOutputchar', s:purple)
 call s:HL('pugScriptConditional', s:green)
 " }}}
+" SASS ----------------------------------------------------------------------{{{
+call s:HL('sassVariable', s:green)
+call s:HL('sassMixin', s:blue)
+call s:HL('sassMixinName', s:blue)
+call s:HL('sassMixing', s:blue)
+call s:HL('sassCssAttribute', s:yellow)
+call s:HL('sassAmpersand', s:purple)
+call s:HL('sassClass', s:green)
+call s:HL('sassClassChar', s:green)
+call s:HL('sassExtend', s:purple)
+call s:HL('sassInclude', s:purple)
+call s:HL('sassMedia', s:purple)
+call s:HL('sassFunction', s:blue)
+" }}}
