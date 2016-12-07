@@ -6,7 +6,6 @@
 
 
 " PREAMBLE
-
 " BASIC SETTINGS-------------------------------------------------------------{{{
 if exists('syntax_on')
    syntax reset
@@ -39,7 +38,8 @@ endfunc
 if has('gui_running')
   let s:darkgray  = '#121212'
   let s:lightgray = '#6c6c6c'
-  let s:gray      = '#3a3a3a'
+  let s:gray      = '#262626'
+  let s:black     = '#080808'
   let s:white     = '#e4e4e4'
   let s:red       = '#ff5f5f'
   let s:green     = '#afd787'
@@ -51,8 +51,9 @@ if has('gui_running')
 elseif &t_Co == 256
   let s:darkgray  = '233'
   let s:lightgray = '242'
-  let s:gray      = '239'
+  let s:gray      = '235'
   let s:white     = '254'
+  let s:black     = '232'
   let s:red       = '203'
   let s:green     = '150'
   let s:purple    = '097'
@@ -61,4 +62,20 @@ elseif &t_Co == 256
   let s:orange    = '215'
   let s:pink      = '212'
 endif
+" }}}
+
+
+" SETTINGS BASIC COLORS
+" GENERAL/UI ----------------------------------------------------------------{{{
+call s:HL('LineNr', s:gray)
+call s:HL('CursorLineNr', s:lightgray)
+call s:HL('NonText', s:gray)                     " '~', '@' and etc
+call s:HL('CursorLine', 'NONE', s:black, 'NONE') " CURSROR HIGHLIGHT
+call s:HL('ColorColumn', 'NONE', s:gray)         " RULE BAR
+call s:HL('Folded' , s:lightgray, 'NONE')
+call s:HL('StatusLine', s:darkgray, s:lightgray)
+" }}}
+" BASE SYNTAX ---------------------------------------------------------------{{{
+call s:HL('Normal'  , s:white, s:darkgray)
+call s:HL('Comment' , s:lightgray)
 " }}}
