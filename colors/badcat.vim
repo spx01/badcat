@@ -208,3 +208,22 @@ call s:HL('jsExport', s:green)
 call s:HL('jsExportDefault', s:purple)
 call s:HL('jsExtendsKeyword', s:red)
 " }}}
+
+" MARKDOWN ------------------------------------------------------------------{{{
+call s:HL('markdownH1'                , s:red)
+call s:HL('markdownH2'                , s:red)
+call s:HL('markdownH3'                , s:red)
+call s:HL('markdownH4'                , s:red)
+call s:HL('markdownH5'                , s:red)
+call s:HL('markdownH6'                , s:red)
+call s:HL('markdownHeadingDelimiter'  , s:red)
+call s:HL('markdownLinkText'          , s:green)
+call s:HL('markdownLinkTextDelimiter' , s:green)
+call s:HL('markdownUrl'               , s:yellow)
+call s:HL('markdownCodeBlock'         , s:yellow)
+call s:HL('markdownId'         , s:yellow)
+call s:HL('markdownIdDeclaration'         , s:green)
+call s:HL('markdownCode'         , s:lightgray)
+call s:HL('markdownCodeDelimiter'         , s:lightgray)
+call s:HL('markdownRule'         , s:lightgray)
+" }}}
