@@ -90,6 +90,24 @@ call s:HL('Comment' , s:lightgray)
 " SPECIFIC-LANGUAGE SYNTAX
 " VANILLA VIM ---------------------------------------------------------------{{{
 call s:HL('vimCommentTitle' , s:green)
+call s:HL('vimCommand' , s:red)
+call s:HL('vimFunction' , s:blue)
+call s:HL('vimFuncName' , s:blue)
+call s:HL('vimFuncVar' , s:blue)
+call s:HL('vimUserFunc' , s:purple)
+call s:HL('vimVar' , s:blue)
+call s:HL('vimOper' , s:red)
+call s:HL('vimNumber' , s:yellow)
+call s:HL('vimIsCommand' , s:purple)
+call s:HL('vimSynType' , s:blue)
+call s:HL('vimOption' , s:blue)
+call s:HL('vimAutoEvent' , s:blue)
+call s:HL('vimMapMod' , s:white)
+call s:HL('vimMapModKey' , s:green)
+call s:HL('vimNotation' , s:green)
+call s:HL('vimBracket' , s:white)
+call s:HL('vimFuncSID' , s:purple)
+call s:HL('vimString' , s:yellow)
 " }}}
 
 " HTML ----------------------------------------------------------------------{{{
