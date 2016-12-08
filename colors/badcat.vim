@@ -262,6 +262,7 @@ call s:HL('sassExtend', s:purple)
 call s:HL('sassInclude', s:purple)
 call s:HL('sassMedia', s:purple)
 call s:HL('sassFunction', s:blue)
+call s:HL('sassControl', s:blue)
 " }}}
 
 " RUBY ----------------------------------------------------------------------{{{
