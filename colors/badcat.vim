@@ -1,8 +1,7 @@
 " Vim colorscheme file.
 "
-" File:    badcat.vim
-" URL:     https://github.com/idlua/badcat
-" Author:  Luan Vicente <hi@idlua.me>
+" Repository: https://github.com/idlua/badcat
+" Author:     Luan Vicente <hi[at]idlua.me>
 
 
 " PREAMBLE
@@ -92,7 +91,7 @@ call s:HL('Delimiter' , s:purple)
 " }}}
 
 
-" SPECIFIC-LANGUAGE SYNTAX
+" SPECIFIC LANGUAGE SYNTAX
 " VANILLA VIM ---------------------------------------------------------------{{{
 call s:HL('vimCommentTitle' , s:green)
 call s:HL('vimCommand'      , s:red)
@@ -335,7 +334,7 @@ call s:HL('bashStatement', s:red)
 " }}}
 
 
-" SPECTIFIC-PLUGINS COLORS
+" SPECTIFIC PLUGINS COLORS
 " NERDTREE ------------------------------------------------------------------{{{
 call s:HL('NERDTreeUp'       , s:yellow)
 call s:HL('NERDTreeDir'      , s:green)
