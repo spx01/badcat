@@ -1,5 +1,4 @@
-<p align="center"><img src="http://i.imgur.com/Nde6CNP.png"></p>
-
+![badcat](http://i.imgur.com/Nde6CNP.png)
 
 :cat2::dash: A dark colorscheme for Vim. Developed by [@idlua](https://twitter.com/idlua).
 
@@ -68,7 +67,7 @@ Pink       | #ff87df | 212   | rgb(255,135,223)
 
 ## Supported languages and plugins
 
-##### Languages
+**Languages**
 
 - Vanilla Vim
 - HTML
@@ -81,7 +80,7 @@ Pink       | #ff87df | 212   | rgb(255,135,223)
 - Shell Script
 - Ruby *(partial)*
 
-##### Plugins
+**Plugins**
 
 - NERDTree
 
