@@ -1,17 +1,14 @@
-<div style="margin-bottom:3em;text-align:center">
+<div style="margin-bottom:3em;align:center">
   <img src="http://i.imgur.com/Nde6CNP.png">
 </div>
 
 
-A dark colorscheme for Vim. :cat2::dash: <br>
-Developed by [@idlua](https://twitter.com/idlua).
-
----
+:cat2::dash: A dark colorscheme for Vim. Developed by [@idlua](https://twitter.com/idlua).
 
 
 ## Installation
 
-1. Put `badcat.vim` file in your `~/.vim/colors/` directory:
+Put `badcat.vim` file in your `~/.vim/colors/` directory:
 
 ```
 $ git clone https://github.com/idlua/badcat.git
@@ -20,7 +17,7 @@ $ cd badcat/colors/
 $ mv badcat.vim ~/.vim/colors/
 ```
 
-2. Add the following line to your `~/.vimrc` file:
+And add the following line to your `~/.vimrc` file:
 
 ```vim
 syntax enable
