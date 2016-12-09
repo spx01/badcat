@@ -69,7 +69,7 @@ Pink       | #ff87df | 212   | rgb(255,135,223)
 
 **Languages**
 
-- Vanilla Vim
+- Vim
 - HTML
 - CSS
 - JavaScript
