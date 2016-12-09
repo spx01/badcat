@@ -1,10 +1,9 @@
-<div style="margin-bottom:3em;align:center">
-  <img src="http://i.imgur.com/Nde6CNP.png">
-</div>
+<p align="center"><img src="http://i.imgur.com/Nde6CNP.png"></p>
 
 
 :cat2::dash: A dark colorscheme for Vim. Developed by [@idlua](https://twitter.com/idlua).
 
+---
 
 ## Installation
 
